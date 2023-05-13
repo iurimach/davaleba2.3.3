@@ -122,6 +122,10 @@
                     .centr-wraper{
                         width: 600px;
                     }
+     
+     .post-title-div1{
+        gap: 35px;
+      }
                     .div-right {
                         margin-left: 1000px;
             
@@ -344,7 +348,6 @@
         justify-content: flex-start;
         
     }
-    
 
     .post-title{
         flex-direction: column;
@@ -380,4 +383,35 @@
     .post-title{
         margin-left: -180px;
     }
+
+    
+    .post-title{
+        flex-direction: column;
+        
+    }
+    .post-title-p{
+        margin-left: 0px;
+    }
+    .cardbox3-card1-div1{
+        margin-left: 10px;
+    }
+    .cardbox3-card1-div2{
+        margin-left: 0px;
+    }
+    .cardbox3-card1{
+        
+        height: auto;
+        margin-top: 30px;
+    }
+    .cardbox3-card1>img{
+        margin-left: 1px;
+    }
+    .cardbox3-left{
+        height: auto;
+    }
+    .ukraina{
+        height: 100px;
+        width: 100px;
+    }
 }
+

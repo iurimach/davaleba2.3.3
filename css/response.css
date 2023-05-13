@@ -1,0 +1,261 @@
+@media  (max-width: 1580px) {
+    
+    .wrapper{
+        
+        max-width: 1580px;}
+        .div-left{
+            max-width: 300px;}
+        .div-centr{
+             max-width: 800px;}
+        .centr-wraper{
+            width: 800px;
+        }
+        .div-right {
+            margin-left: 1200px;
+
+        max-width: 300px;}
+        .none2{
+            display: none;
+        }
+
+
+
+}
+
+
+@media  (max-width: 1370px) {
+    .headerlogo{
+        width: 124.08px;}
+        
+        .input1{
+
+           max-width: 340px;}
+           .vectori-icon{
+            margin-top: 11px;
+            margin-left: 292px;}
+
+    .wrapper{
+    
+                max-width: 1280px;}
+                .div-left{
+                    max-width: 250px;}
+                .div-centr{
+                     max-width: 600px;}
+                .centr-wraper{
+                    width: 600px;
+                }
+                .div-right {
+                    margin-left: 1000px;
+        
+                max-width: 250px;}
+                .none2{
+                    display: none;
+                }
+                .chat1-input>input{
+                    width: auto;
+                }
+                .chat-div1{
+                    width: auto;
+                }
+                .chat1{
+                    margin-left: 1px;
+                }
+                .grup{
+                    margin-left: 1px;
+                    width: auto;
+                }
+                .chat1-input{
+                    margin-left: 1px;
+                }
+                .story{
+                    width: 450px;
+                    justify-content: space-between;
+                }
+                .story-h2{
+                    margin-left: 60px;
+                }
+
+
+}
+
+
+    
+ @media  (max-width: 1280px) {
+        .headerlogo{
+            width: 124.08px;}
+            
+            .input1{
+
+               max-width: 340px;}
+               .vectori-icon{
+                margin-top: 11px;
+                margin-left: 292px;}
+
+        .wrapper{
+        
+                    max-width: 1280px;}
+                    .div-left{
+                        max-width: 250px;}
+                    .div-centr{
+                         max-width: 600px;}
+                    .centr-wraper{
+                        width: 600px;
+                    }
+                    .div-right {
+                        margin-left: 1000px;
+            
+                    max-width: 250px;}
+                    .none2{
+                        display: none;
+                    }
+
+    }
+        
+    
+    @media  (max-width: 1000px) {
+        
+
+        .wrapper{
+        
+                    max-width: 1000px;}
+                    .div-left{
+                        max-width: 200px;}
+                    .div-centr{
+                         max-width: 500px;
+                         margin-left: 170px;}
+                    .centr-wraper{
+                        flex-direction: column;
+                        width: 400px;
+                        margin-left: 140px;
+                    }
+                    .cardbox3{
+                        flex-direction: column;
+
+                    }
+                    .div-right {
+                        margin-left: 770px;
+            
+                    max-width: 200px;}
+                    .none2{
+                        display: none;
+                    }
+                    
+                      .story{
+                        
+                        overflow: hidden;
+                        width: 400px;
+                        
+                        margin-left: 100px;}
+                        
+                      
+                    .story:hover{
+                        overflow-x: scroll;
+                        overflow-y: hidden;
+                    }
+                    .story-div2,.story-div1 ,.story-div3 ,.story-div4 ,.story-div5 ,.story-div6{
+                        width: 300px;
+                    }
+}
+    
+
+@media  (max-width: 800px) {
+        
+
+                        .wrapper{
+                        
+                                    max-width: 800px;}
+                                    .div-left{
+                                        max-width: 110px;}
+                                    .div-centr{
+                                         max-width: 400px;
+                                         margin-left: 110px;}
+                                    .centr-wraper{
+                                        flex-direction: column;
+                                        width: 300px;
+                                        margin-left: 140px;
+                                    }
+                                    .cardbox3{
+                                        flex-direction: column;
+                
+                                    }
+                                    .div-right {
+                                        margin-left: 470px;
+                                        margin-top: 350px;
+                            
+                                    max-width: 200px;}
+                                    .div-icon{
+                                        margin-left: 5px;
+                                    }
+                                    .div-left-div2{
+                                        margin-left: 5px;
+                                        gap: 20px;
+
+                                    }
+                                    .cardbox3{
+                                        margin-left: -100px;
+                                    }
+                                    .headerdivnone{
+                                        display: none;
+                                    }
+                                    .input1{
+                                        margin-left: -200px;
+                                    }
+                                    
+
+    }
+
+ @media  (max-width: 900px) {
+        .headerlogo{
+            width: 110px;}
+            .inputdiv{
+                max-width: 240px;}
+            .input1{
+    
+               max-width: 240px;}
+               .vectori-icon{
+                margin-top: 11px;
+                margin-left: 192px;}
+                .inputdiv>img{
+                    width: 26px;
+                
+                 margin-left: 45px;}
+      
+          
+       
+    }
+    @media  (max-width: 700px) {
+        .headerlogo{
+            width: 100px;}
+            .inputdiv{
+                max-width: 200px;}
+            .input1{
+    
+               max-width: 200px;}
+               .vectori-icon{
+                margin-top: 11px;
+                margin-left: 192px;}
+                .inputdiv>img{
+                    width: 26px;
+                
+                 margin-left: 65px;}
+      .story{
+        width: 250px;
+      }
+      .cardbox3{
+        max-width: 200px;
+      }
+      .post-title-div1{
+        gap: 5px;
+      }
+      .ukraina{
+        max-width: 100px;
+        height: 100px;
+      }
+          
+       
+    }
+
+   
+
+      
+        

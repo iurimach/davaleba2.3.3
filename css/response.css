@@ -277,6 +277,8 @@
                                     .cardbox3-left{
                                         height: auto;
                                     }
+    .div-left{
+                    max-width: 250px;}
 
     }
 

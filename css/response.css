@@ -134,6 +134,8 @@
         
     
     @media  (max-width: 1000px) {
+        #rightdivhamburger{ display: none;}
+        #hamburger{display: flex;}
         
 
         .wrapper{
@@ -154,7 +156,7 @@
 
                     }
                     .div-right {
-                        margin-left: 770px;
+                        margin-left: 690px;
             
                     max-width: 200px;}
                     .none2{
@@ -194,6 +196,12 @@
                 width: 26px;
             
              margin-left: 45px;}
+             .chat1-input{
+                margin-left: 5px;
+             }
+             .cardbox3-card1{
+                height: auto;
+            }
   
       
    
@@ -220,8 +228,8 @@
                 
                                     }
                                     .div-right {
-                                        margin-left: 470px;
-                                        margin-top: 350px;
+                                        margin-left: 400px;
+                                        
                             
                                     max-width: 200px;}
                                     .div-icon{
@@ -241,7 +249,30 @@
                                     .input1{
                                         margin-left: -200px;
                                     }
-                                    
+                                    #hamburger{
+                                        margin-left: 350px;
+                                    }
+                                    .story{
+                                        margin-left: 10px;
+                                    }
+                                    .post-title{
+                                        flex-direction: column;
+                                        margin-left: -80px;
+                                        margin-top: 10px;
+                                        
+                                    }
+                                    .post-title-div1{
+                                        gap: 20px;
+                                    }
+                                    .cardbox3-card1{
+                                        height: auto;
+                                    }
+                                    .cardbox3-card1-div2{
+                                        margin-left: 1px;
+                                    }
+                                    .cardbox3-left{
+                                        height: auto;
+                                    }
 
     }
 
@@ -263,63 +294,90 @@
                  margin-left: 65px;}
       .story{
         width: 250px;
+        margin-left: 40px;
       }
       .cardbox3{
         max-width: 200px;
       }
       .post-title-div1{
         gap: 5px;
+        
+      }
+      .post-title{
+        flex-direction: column;
+        align-items: center;
+        margin-left: -80px;
+        margin-top: 10px;
       }
       .ukraina{
         max-width: 100px;
         height: 100px;
       }
+        .post-title-p{
           
+        }  
+        .cardbox3-card1-div1{
+            margin-left: 1px;
+        }
+        .cardbox3-card1{
+            height: auto;
+        }
        
     }
-
-   
+    
+    @media  (max-width: 700px) {
+        .div-right{
+            margin-left: 350px;
+            
+            
+        }
+    }
 
       
-    @media  (max-width: 400px) {
+@media  (max-width: 400px) {
         .div-right{
-            margin-left: 0px;
-            margin-top: 550px;
-            max-width: 150px;
+            margin-left: 250px;
+            
+            
         }
-.centr-wraper{
-    justify-content: flex-start;
-    
-}
-.div-centr{
-   
-}
-.post-title{
-    flex-direction: column;
-    
-}
-.post-title-p,{
-    margin-left: 0px;
-}
-.cardbox3-card1-div1{
-    margin-left: 10px;
-}
-.cardbox3-card1-div2{
-    margin-left: 0px;
-}
-.cardbox3-card1{
-    
-    height: auto;
-    margin-top: 30px;
-}
-.cardbox3-card1>img{
-    margin-left: 1px;
-}
-.cardbox3-left{
-    height: auto;
-}
-.ukraina{
-    height: 100px;
-    width: 100px;
-}
+    .centr-wraper{
+        justify-content: flex-start;
+        
     }
+    
+
+    .post-title{
+        flex-direction: column;
+        
+    }
+    .post-title-p{
+        margin-left: 0px;
+    }
+    .cardbox3-card1-div1{
+        margin-left: 10px;
+    }
+    .cardbox3-card1-div2{
+        margin-left: 0px;
+    }
+    .cardbox3-card1{
+        
+        height: auto;
+        margin-top: 30px;
+    }
+    .cardbox3-card1>img{
+        margin-left: 1px;
+    }
+    .cardbox3-left{
+        height: auto;
+    }
+    .ukraina{
+        height: 100px;
+        width: 100px;
+    }
+    #hamburger{
+        margin-left: 270px;
+    }
+    .post-title{
+        margin-left: -180px;
+    }
+}

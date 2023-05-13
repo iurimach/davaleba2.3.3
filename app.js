@@ -31,3 +31,17 @@ function myFunction2(){
 
     
 }
+var rightdivhamburger = document.querySelector("#rightdivhamburger")
+var hamburger=document.querySelector("#hamburger").addEventListener("click", fhamburger)
+function fhamburger(){
+
+
+    if (rightdivhamburger.style.display === "none") {
+        rightdivhamburger.style.display = "block";
+      } else {
+        rightdivhamburger.style.display = "none";
+      }
+    };
+
+
+    

@@ -815,3 +815,27 @@ line-height: 22px;
 background: #FFFFFF;
 }
 
+/**hamburger  big burger bigmak :D */
+#hamburger{
+   display: none;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   
+   margin-top: 20px;
+  
+   
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   margin-left: 400px;
+}
+.hamburgicon{
+   width: 50px;
+   height: 50px;
+   
+   
+}
+.hamburgerovich{
+   display: none;
+}

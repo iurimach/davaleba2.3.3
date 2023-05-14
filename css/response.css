@@ -32,7 +32,15 @@
             width: 100%;}
                 .div-left{
                     max-width: 250px;
-        }
+                    
+                        }
+                        .div-left-div2{
+                            margin-left: 10px;
+                        }
+                        .div-icon{
+                            margin-left: 30px;
+
+                        }
                 .div-centr{
                      max-width: 1100px;
                      
@@ -257,8 +265,7 @@
                                     .cardbox3-left{
                                         height: auto;
                                     }
-    .div-left{
-                    max-width: 250px;}
+
     }
     @media  (max-width: 700px) {
         .headerlogo{
@@ -307,8 +314,8 @@
         }
 
     }
-
-    @media  (max-width: 600px) {
+    
+    @media  (max-width: 700px) {
         .div-right{
             margin-left: 350px;
 
@@ -318,12 +325,13 @@
           
     
 
-        
-        Expand All
-    
-    @@ -347,10 +347,11 @@
+   
   
             
+        }
+        .div-left{
+            margin-top:0px;
+            widtch:auto;
         }
         .div-left{
             margin-top:0px;
@@ -333,11 +341,10 @@
 
 @media  (max-width: 400px) {
         .div-right{
-            margin-left: 250px;}
-            .headerlogo{
-                font-size:20px;
-
-               }
+            margin-left: 250px;
+            
+            
+        }
     .centr-wraper{
         justify-content: flex-start;
 
@@ -347,8 +354,7 @@
             
     
 
-          
-          Expand Down
+         
     
     
   
